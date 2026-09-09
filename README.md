@@ -34,12 +34,12 @@ Processing BAFA Energy Savings Concept (ESK) applications involves:
 
 ### Core Components
 
-| Component      | Purpose |
-|-----------     |---------|
-| Airtable       | Central database, workflow orchestration, and UI layer |
-| Custom Scripts | Business logic, validation, and data transformation |
-| AI Agents      | Intelligent data extraction and matching |
-| External APIs  | Real-time fuel prices and geocoding |
+| Component      | Purpose 
+|----------------|-------------------------------------------------------
+| Airtable       | Central database, workflow orchestration, and UI layer
+| Custom Scripts | Business logic, validation, and data transformation
+| AI Agents      | Intelligent data extraction and matching
+| External APIs  | Real-time fuel prices and geocoding
 
 ### Automation Workflow
 
@@ -138,13 +138,13 @@ if (deviation <= 10) {
 
 ## Data Sources
 
-| Data Type | Source | Method |
-|-----------|--------|--------|
-| Fuel Prices | Tankerkönig API | Real-time API call |
-| Client Location | OpenStreetMap | Geocoding API |
-| Client Electricity Cost | Utility Bill | Manual upload + parsing |
-| Machine Data | Reference Machines DB | Airtable query |
-| Energy Density Values | Standardized lookups | Static database |
+| Data Type                 | Source                         | Method 
+|---------------------------|--------------------------------|--------
+| Fuel Prices               | Fuel stations API              | Real-time API call
+| Client Location           | Map API                        | Geocoding API
+| Client Electricity Cost   | Utility Bill                   | Manual upload + parsing
+| Machine Data              | Reference Machines DB          | Airtable query
+| Energy Density Values     | Standardized lookups           | Static database
 
 ---
 
@@ -153,7 +153,7 @@ if (deviation <= 10) {
 - Platform: Airtable (database + orchestration + UI)
 - Language: JavaScript (Airtable Scripting)
 - AI/ML: Custom similarity scoring algorithms
-- APIs: Tankerkönig (fuel prices), OpenStreetMap (geocoding)
+- APIs: API source (fuel prices), API source (geocoding)
 - Output: Automated PDF generation
 - Version Control: Git / GitHub
 
@@ -182,13 +182,13 @@ if (deviation <= 10) {
 
 ## Key Metrics
 
-| Metric | Before | After |
-|--------|--------|-------|
-| Application Prep Time | Weeks | Hours |
-| Data Entry Errors | High | Eliminated |
-| Manual Checks Required | Extensive | Minimal |
-| Scalability | 1-2 applications/month | 100+ applications/month |
-| Compliance Rate | Variable | Baked into workflow |
+| Metric                 | Before                 | After
+|------------------------|------------------------|-----------------------
+| Application Prep Time  | Weeks                  | Hours
+| Data Entry Errors      | High                   | Eliminated
+| Manual Checks Required | Extensive              | Minimal
+| Scalability            | 1-2 applications/month | 100+ applications/month
+| Compliance Rate        | Variable               | Baked into workflow
 
 ---
 
